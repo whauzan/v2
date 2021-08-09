@@ -7,6 +7,20 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Wahyu Hauzan Rafi</title>
     </head>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-thumb {
+            border-radius: 3px;
+            background-color: #112240;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #233554;
+        }
+    </style>
+
     <body>
         <div id="root">
             <div class="layout">
@@ -16,16 +30,16 @@
                         <div class="nav-section">
                             <ol>
                                 <li class="fadedown-enter" style="transition-delay: 0ms">
-                                    <a href="/#about">About</a>
+                                    <a href="#about">About</a>
                                 </li>
                                 <li class="fadedown-enter" style="transition-delay: 100ms">
-                                    <a href="/#experience">Experience</a>
+                                    <a href="#experience">Experience</a>
                                 </li>
                                 <li class="fadedown-enter" style="transition-delay: 200ms">
-                                    <a href="/#work">Work</a>
+                                    <a href="#work">Work</a>
                                 </li>
                                 <li class="fadedown-enter" style="transition-delay: 300ms">
-                                    <a href="/#contact">Contact</a>
+                                    <a href="#contact">Contact</a>
                                 </li>
                             </ol>
                             <div class="fadedown-enter" style="transition-delay: 400ms">
@@ -79,8 +93,39 @@
                                 <a href="mailto:wahyu172845@gmail.com" class="email-link">Get in Touch</a>
                             </div>
                         </section>
-                        <section id="about">
-                            
+                        <section id="about" class="about-style" data-sr-id="0">
+                            <h2 class="numbered-heading">About Me</h2>
+                            <div class="inner">
+                                <div class="inner-text">
+                                    <div>
+                                        <p>
+                                            Hello! My name is Wahyu and I enjoy creating things that can help people in this digital era. I started diving in programming since 2019 when I got scholarship from <a href="https://medcom.id" target="blank" rel="noreferrer">medcom.id</a> and studied at Telkom University majoring in Informatics - turns out program and build something is full of fun.
+                                        </p>
+                                        <p>
+                                            Fast-forward to today, and I've had the privilage of working at <a href="https://3c.telkomuniversity.ac.id/" target="blank" rel="noreferrer">a computing certification center</a> and right now my focus is developing and marketing AI, Open RAN, and Data Science products at <a href="https://www.techbros.io/" target="blank" rel="noreferrer">Techbros</a> for a variety of clients.
+                                        </p>
+                                        <p>
+                                            Here are a few technologies I've been working with recently:
+                                        </p>
+                                    </div>
+                                    <ul class="skill-list">
+                                        <li>Javascript (ES6+)</li>
+                                        <li>Node.js</li>
+                                        <li>React</li>
+                                        <li>Python</li>
+                                        <li>Adobe Illustrator</li>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Figma</li>
+                                        <li>Adobe Premiere Pro</li>
+                                        <li>Adobe After Effect</li>
+                                    </ul>
+                                </div>
+                                <div class="about-image">
+                                    <div class="wrapper">
+                                        <img src="/assets/images/Me.png">
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                     </main>
                 </div>
