@@ -462,3 +462,7 @@ section {
     left: 20px;
     z-index: -1;
 }
+
+.wrapper img {
+    border-radius: var(--border-radius);
+}
