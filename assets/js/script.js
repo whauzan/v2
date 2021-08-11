@@ -34,3 +34,18 @@ toggle.onclick = function(){
   body.classList.toggle('blur');
 }
 
+let navbar = document.querySelector(".header-box");
+var scrollprev = window.pageYOffset;
+window.onscroll = function () {
+  var scrollcur = window.pageYOffset;
+  if (scrollprev > scrollcur) {
+    navbar.style.top = "0";
+  } else {
+    navbar.style.top = "-100px";
+  }
+  scrollprev = scrollcur;
+}
+
+$(".header-box ol li").click(function() {
+  $(this).addClass("active").siblings().removeClass("active");
+});
