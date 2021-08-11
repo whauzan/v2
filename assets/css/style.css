@@ -67,6 +67,10 @@ element.style {
     height: 100%;
 }
 
+main {
+    padding: 0px 150px
+}
+
 #root {
     min-height: 100vh;
     display: grid;
@@ -99,6 +103,13 @@ a {
     color: inherit;
     position: relative;
     transition: var(--transition);
+}
+
+body.blur #content > * {
+    filter: blur(5px) brightness(0.7);
+    transition: var(--transition);
+    pointer-events: none;
+    user-select: none;
 }
 
 .layout {

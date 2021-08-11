@@ -23,3 +23,14 @@ for (var i = 0; i < li_elements.length; i++) {
     }
   });
 }
+
+var toggle = document.getElementById("menu");
+var open = document.getElementById('open-menu');
+var body = document.getElementById('body');
+
+toggle.onclick = function(){
+  toggle.classList.toggle('active');
+  open.classList.toggle('open');
+  body.classList.toggle('blur');
+}
+
