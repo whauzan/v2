@@ -67,10 +67,6 @@ element.style {
     height: 100%;
 }
 
-main {
-    padding: 0px 150px
-}
-
 #root {
     min-height: 100vh;
     display: grid;
