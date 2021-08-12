@@ -318,9 +318,8 @@
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
     }
-    .selected-feature .project-image .img img {
-        width: 700px;
-        height: 437px;
+    .selected-feature:nth-of-type(2n+1) .project-image {
+        grid-column: 1 / -1;
     }
     .contact-style {
         margin: 0px auto 50px;
