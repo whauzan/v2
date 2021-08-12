@@ -314,8 +314,8 @@
     }
     .selected-feature .project-image .img {
         object-fit: cover;
-        max-width: 700px;
-        max-height: 437;
+        width: 700px;
+        height: 437;
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
     }
