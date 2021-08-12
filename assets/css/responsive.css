@@ -271,6 +271,8 @@
         justify-content: center;
         height: 100%;
         z-index: 5;
+        padding: 40px 40px 30px;
+        grid-column: 1 / -1;
     }
     .selected-feature .project-title {
         color: var(--white);
@@ -315,6 +317,7 @@
     .selected-feature .project-image {
         height: 100%;
         opacity: 0.25;
+        grid-column: 1 / -1;
     }
     .selected-feature .project-image .img img {
         object-fit: cover;

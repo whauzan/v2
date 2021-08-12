@@ -288,7 +288,6 @@ main.fillHeight {
 
 main {
     margin: 0px auto;
-    width: 100%;
     max-width: 1600px;
     min-height: 100vh;
 }
@@ -652,6 +651,7 @@ section {
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     white-space: nowrap;
+    margin: 0px 0px 5px 20px;
 }
 
 .selected-feature:nth-of-type(2n+1) .project-link {
