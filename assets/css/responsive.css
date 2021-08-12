@@ -314,10 +314,13 @@
     }
     .selected-feature .project-image .img {
         object-fit: cover;
-        width: 700px;
-        height: 437;
+        width: auto;
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
+    }
+    .selected-feature .project-image .img img {
+        width: 700px;
+        height: 437px;
     }
     .contact-style {
         margin: 0px auto 50px;
