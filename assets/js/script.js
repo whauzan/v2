@@ -14,7 +14,9 @@ for (var i = 0; i < li_elements.length; i++) {
       item.style.display = "none";
     });
     
-    if (li_value == "techbros") {
+    if (li_value == "umkmtech") {
+      document.querySelector("." + li_value).style.display = "block";
+    } else if (li_value == "techbros") {
       document.querySelector("." + li_value).style.display = "block";
     } else if (li_value == "computer-certification-center") {
       document.querySelector("." + li_value).style.display = "block";
